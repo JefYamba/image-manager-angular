@@ -1,0 +1,10 @@
+.image-container {
+    position: relative;
+    background-color: gainsboro;
+    border: 1px solid #aaa;
+    border-radius: 12px;
+    overflow: hidden;
+    min-width: 300px;
+    min-height: 100px;
+    height: 200px;
+}

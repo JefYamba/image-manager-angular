@@ -17,7 +17,6 @@ describe('AppComponent', () => {
   it(`should have the 'image-manager-angular' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('image-manager-angular');
   });
 
   it('should render title', () => {

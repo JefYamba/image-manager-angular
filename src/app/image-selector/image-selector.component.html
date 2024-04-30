@@ -1,0 +1,11 @@
+<div class="d-flex flex-column justify-content-center align-items-center gap-3">
+    <div class="image-container" (click)="input.click()" [style]="{'width': imgWidth + 'px', 'height': imgHeight + 'px'}">
+        <img ngSrc="{{imageUrl}}" alt="img" fill style="object-fit: cover; cursor: pointer">
+    </div>
+    <div class="d-grid gap-2 d-md-flex ">
+        <button (click)="input.click()" class="btn btn-outline-secondary btn-sm" type="button" [style]="{'width': imgWidth + 'px'}">
+            <span>{{buttonText}}</span>
+            <input #input type="file" (change)="selectImage($event)" hidden="hidden">
+        </button>
+    </div>
+</div>
