@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, input, numberAttribute, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, numberAttribute, OnInit, Output} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 
 @Component({

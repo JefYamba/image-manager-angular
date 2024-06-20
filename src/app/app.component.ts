@@ -5,7 +5,6 @@ import {ImageSelectorComponent} from "./image-selector/image-selector.component"
 import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 import {ImageListItemComponent} from "./image-list-item/image-list-item.component";
 import {HttpClient} from "@angular/common/http";
-import {error} from "@angular/compiler-cli/src/transformers/util";
 
 @Component({
     selector: 'app-root',
